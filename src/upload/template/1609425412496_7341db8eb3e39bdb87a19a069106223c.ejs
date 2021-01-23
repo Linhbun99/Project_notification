@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #content {
+            padding: 10px;
+            color: #111;
+            width: fit-content;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        #btn {
+            background-color: rgb(37, 160, 26);
+            border-radius: 3px;
+            border: 'none';
+            padding: 5px;
+            width: fit-content;
+            margin-left: 30%;
+            margin-top: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFF !important;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='content'>
+        <h2><%=challengeName%></h2>
+        <span>Xin chào </span><strong><%= receiver %>,</strong>
+        <br /><br />
+        <div>Bạn nhận được lời mời tham gia <%= challengeName %> từ <%=sender%></div>
+        <div>Challenge sẽ được mở vào <%= startdate %> và kết thúc vào <%=enddate%></div>
+        <div>Đồng ý tham gia bằng cách nhấn vào nút dưới</div>
+        <div id='btn'><a href='https://www.google.com/'>Tham gia</a></div>
+        <br />
+        <p> Thân ái, </p>
+        <p> SpeechEvaluation</p>
+    </div>
+</body>
+
+</html>

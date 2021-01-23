@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #content {
+            padding: 10px;
+            color: #111;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='content'>
+        <span>Xin chào </span><strong><%= receiver %>,</strong>
+        <br />
+        <div>Chào mừng bạn đã tham gia vào hệ thống đánh giá giọng nói của chúng tôi. Thông tin đăng nhập của bạn
+            là: </div>
+        <p>
+            Tài khoản: <%= email %>
+        </p>
+        <p>
+            Mật khẩu: <%= password %>
+        </p>
+        <br />
+        <p> Thân ái, </p>
+        <p> Admin</p>
+    </div>
+</body>
+
+</html>
